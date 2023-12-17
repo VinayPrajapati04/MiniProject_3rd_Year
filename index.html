@@ -7,12 +7,16 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="./slider.css"> -->
+   
 
     <title>Disney+ Clone</title>
 </head>
 <body>
     <nav class="navbar">
-        <img src="images/logo.png" class="brand-logo" alt="">
+        <!-- <img src="images/logo.png" class="brand-logo" alt=""> -->
+        <a href="" ></a>
+        <h1 class="brand-logo">StarMovie</h1>
         <ul class="nav-links">
             <li class="nav-items"><a href="#">TV</a></li>
             <li class="nav-items"><a href="#">movies</a></li>
@@ -27,7 +31,12 @@
         </div>
     </nav>
 
-    <div class="carousel-container">
+    <div id="slider"></div>
+
+<script src="./home.js"></script>
+
+
+    <div class="carousel-container" style="height: 50vh;">
         <div class="carousel">
             <!-- <div class="slider">
                 <div class="slide-content">
@@ -75,7 +84,7 @@
             <div class="card">
                 <img src="images/poster 1.png" alt="" class="card-img">
                 <div class="card-body">
-                    <h2 class="name">movie name</h2>
+                    <h2 class="name">L0ki</h2>
                     <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
                     <button class="watchlist-btn">add to watchlist</button>
                 </div>
@@ -86,7 +95,7 @@
                 <div class="card-body">
                     <h2 class="name">movie name</h2>
                     <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
+                    <button class="watchlist-btn"><a href="">add to watchlist</a></button>
                 </div>
             </div>
 
@@ -286,205 +295,7 @@
     </div>
 
 
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-
-            <!-- slider 1 -->
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                            <div class="line"></div>
-                            <p>Drama</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>UNCHARTED</h2>
-                            <P>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 6,3</P>
-                            </div>
-                            <div>
-                                <P>1 h 56 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider card-2 -->
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>Guardians of the Galaxy</h2>
-                            <P>After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 7,5</P>
-                            </div>
-                            <div>
-                                <P>2 h 40 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider card 3 -->
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                            <div class="line"></div>
-                            <p>Drama</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>UNCHARTED</h2>
-                            <P>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 6,3</P>
-                            </div>
-                            <div>
-                                <P>1 h 56 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider-4 -->
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                            <div class="line"></div>
-                            <p>Drama</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>UNCHARTED</h2>
-                            <P>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 6,3</P>
-                            </div>
-                            <div>
-                                <P>1 h 56 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider -5 -->
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                            <div class="line"></div>
-                            <p>Drama</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>UNCHARTED</h2>
-                            <P>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 6,3</P>
-                            </div>
-                            <div>
-                                <P>1 h 56 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- slider 6 -->
-
-            <div class="swiper-slide slide-1">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line">
-                            <p>Action</p>
-                            <div class="line"></div>
-                            <p>Drama</p>
-                        </div>
-                        <div class="movie-title">
-                            <h2>UNCHARTED</h2>
-                            <P>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.</P>
-                        </div>
-                        <div class="movie-rating">
-                            <div>
-                                <P>IMDb: 6,3</P>
-                            </div>
-                            <div>
-                                <P>1 h 56 m</P>
-                            </div>
-                            <div class="rect">
-                                <p>10+</p>
-                            </div>
-                            <div class="movie-btn">
-                                <button class="btn-1">Watch Now</button>
-                                <button class="btn-2">Add List</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-     
-
-        </div>
-    </div>
+   
 
     <script src="./JavaScript/data.js"></script>
     <script src="./JavaScript/app.js"></script>
