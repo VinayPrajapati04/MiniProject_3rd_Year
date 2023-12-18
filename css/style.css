@@ -183,7 +183,7 @@ body {
     display: none;
  }
 
- .title {
+ .title_section {
     color: #fff;
     opacity: 0.9;
     padding-left: 4%;
@@ -223,7 +223,7 @@ body {
     height: 200px;
     border-radius: 5px;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left:25px;
     transition: .5s;
     background: #000;
  }

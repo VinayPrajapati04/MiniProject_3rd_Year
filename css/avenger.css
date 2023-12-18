@@ -1,0 +1,31 @@
+.picture>h1{  color: white;
+    font-family: Rubik Doodle Shadow;
+    font-size:50px;
+   }
+   .picture > h4 ,h3{
+     color:bisque;
+     
+   }
+   .picture {
+       text-align:center;
+   }
+   .button{
+       text-align:center;
+      
+       
+   }
+   .rating>.checked{
+        
+       color:orange;
+   
+   }
+   .rating{
+       text-align: center;
+   }
+   
+   .btn-tag{
+       background-color: red;
+       border-radius: 10px;
+   }
+   
+   
