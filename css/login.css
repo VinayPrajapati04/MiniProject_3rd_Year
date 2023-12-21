@@ -48,10 +48,8 @@
         font-family: 700;
     }
     video{
-        margin-left: 0px;
-    }
-    #moviePoster{
-
+        margin-left: -10px;
+        margin-right: -50px;
     }
 
 

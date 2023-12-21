@@ -36,7 +36,7 @@
     console.log(data)
     alert("Login successfull")
     localStorage.setItem("token",JSON.stringify(data))
-    window.location.href = 'index.html';
+    window.location.href = 'home.html';
     } catch (error) {
     console.log(error)
     }
