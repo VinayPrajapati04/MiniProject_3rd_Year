@@ -34,7 +34,7 @@
     const data =await response.json();
     console.log(data)
 
-    alert("Login successfull")
+    alert("Registration successfull")
 
     localStorage.setItem("token",JSON.stringify(data))
 
