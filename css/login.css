@@ -8,6 +8,7 @@
     .loginForm{
         position: absolute;
         top: 200px;
+        left: -50PX;
     }
     #login_form{
     width: 30%;
@@ -58,6 +59,13 @@
     body{
         background: #0c111b;
     }
+    #topHeading{
+        width: 700px;
+        color: white;
+        margin-right: -400px;
+        margin-left: 50PX;
+        margin-bottom: 50PX;
+       }
 
 
 @media screen and (min-width: 541px) and (max-width:1130px) {
@@ -104,6 +112,8 @@
     font-size: 20px;
     font-weight: bold;
     } 
+
+  
 
  }
 

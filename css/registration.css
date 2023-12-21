@@ -1,9 +1,7 @@
-body{
+   body{
     width: 100%;
     background: #0c111b;
-}
-
-
+   }
     #registration_div{
     width: 30%;
     margin: auto;
@@ -49,7 +47,6 @@ body{
 
     } 
 
-
     ::placeholder{
     color: rgb(192, 185, 185);
     font-size: 15px;
@@ -62,6 +59,10 @@ body{
     #bottomText{
         color: white;
         font-weight: 700;
+    }
+    #PageHeading{
+        color: white;
+        margin-left: 140px;
     }
 
  
