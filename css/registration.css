@@ -60,6 +60,11 @@
         color: white;
         font-weight: 700;
     }
+    #bottomText a{
+        color: red;
+        text-decoration: none;
+        font-weight: 700;
+    }
     #PageHeading{
         color: white;
         margin-left: 140px;
