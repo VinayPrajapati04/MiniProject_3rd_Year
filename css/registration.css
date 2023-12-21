@@ -1,3 +1,9 @@
+body{
+    width: 100%;
+    background: #0c111b;
+}
+
+
     #registration_div{
     width: 30%;
     margin: auto;
@@ -48,6 +54,14 @@
     color: rgb(192, 185, 185);
     font-size: 15px;
 
+    }
+    label{
+        color: white;
+        font-weight: 700;
+    }
+    #bottomText{
+        color: white;
+        font-weight: 700;
     }
 
  
